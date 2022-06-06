@@ -8,7 +8,7 @@ public class FoxSuspect {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Does fox wear black coat and carry three bags?: true/false");
+        System.out.println("Does fox wear black coat and carry three bags and had torch?: true/false");
         boolean answer = input.nextBoolean();
 
         System.out.println(checkSuspect(answer));
