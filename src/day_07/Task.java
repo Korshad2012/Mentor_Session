@@ -43,20 +43,8 @@ public class Task {
 
         System.out.println("=====================================");
 
-        for (int i = 5; i <10 ; i++) {
 
-            if(i==5){
-                System.out.println(5);
-            }
 
-            for (int j = 0; j < ; j++) {
-                
-            }
-            if(i>5){
-                System.out.println("*");
-            }
-
-        }
 
 
     }
