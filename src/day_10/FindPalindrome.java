@@ -7,7 +7,10 @@ public class FindPalindrome {
 
     public static void main(String[] args) {
 
-        String [] arr = {"def","ab",};
+
+
+
+        String [] arr = {"def","ab","aba"};
 
         ArrayList<String> palindromes = findPalindrome(arr);
 
