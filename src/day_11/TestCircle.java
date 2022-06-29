@@ -4,15 +4,15 @@ public class TestCircle {
 
     public static void main(String[] args) {
 
-        Circle circle= new Circle();
+       Circle circle1 = new Circle();
 
-        Circle circle1= new Circle(5);
-
-        System.out.println(circle);
-
-        circle1.perimeterCal();
-
+        System.out.println(Circle.getNumbersOfCircles());
         System.out.println(circle1);
+
+        Circle circle2 = new Circle(5);
+
+        System.out.println(Circle.getNumbersOfCircles());
+        System.out.println(circle2);
 
     }
 }
